@@ -34,6 +34,7 @@ function App() {
   if (loader) {
     return (
       <div>
+        <h3>Setup Your Username</h3>
         <input
           type="text"
           value={username}
@@ -52,7 +53,7 @@ function App() {
   }
   return (
     <div>
-      <h3>Chatty App</h3>
+      <h3>Chat</h3>
       <ul>
         {messages.map((payload, index) => (
           <li key={index} style={{ listStyle: "none", margin: "1rem 0" }}>

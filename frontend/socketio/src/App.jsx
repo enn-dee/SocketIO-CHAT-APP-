@@ -3,7 +3,7 @@ import "./App.css";
 import io from "socket.io-client";
 import { nanoid } from "nanoid";
 
-const socket = io("http://localhost:3001");
+const socket = io("https://socket-io-chat-app-sand.vercel.app/:3001");
 // const username = nanoid(4);
 
 function App() {
